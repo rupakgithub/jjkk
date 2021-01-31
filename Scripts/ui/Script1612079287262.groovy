@@ -15,4 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.scrollToPosition(0, 0);
+WebUI.openBrowser(GlobalVariable.URL);
+
+WebUI.maximizeWindow();
+
+WebUI.click(findTestObject('Object Repository/Facebook_Login/btn_new_account')); 
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Facebook_Login/select_day'), GlobalVariable.DAY, false);
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Facebook_Login/select_month'), GlobalVariable.MONTH, false);
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Facebook_Login/select_year'), GlobalVariable.YEAR, false);

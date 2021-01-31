@@ -9,4 +9,24 @@
       <initValue>'Rupak'</initValue>
       <name>USER</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.facebook.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'21'</initValue>
+      <name>DAY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'May'</initValue>
+      <name>MONTH</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1992'</initValue>
+      <name>YEAR</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
